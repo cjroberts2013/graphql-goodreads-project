@@ -1,12 +1,21 @@
 {
-  "name": "graphql-goodreads-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "graphql-goodreads-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-graphql": "^0.9.0",
+		"graphql": "^14.6.0",
+		"node-fetch": "^2.6.0",
+		"nodemon": "^2.0.2",
+		"util": "^0.12.1",
+		"xml2js": "^0.4.23"
+	}
 }
